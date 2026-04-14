@@ -48,6 +48,7 @@ elif opcao_escolhida == 4:
     codigo_usuario = int(input('Código: '))
     contador_tentativas += 1
     usarios_cadastrados += 1 
+    usuarios.append(login_novousuario)
     print('Cadastro bem-sucedido!')
 elif opcao_escolhida == 5:
     print('Opção escolhida: Sair')
